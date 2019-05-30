@@ -1,0 +1,83 @@
+/* CSS files add styling rules to your content */
+@font-face {
+    font-family: "EraserDust";
+    src: url("https://cdn.glitch.com/4f0b228c-764b-4bdd-b243-1dd5e31e36a2%2Feraser.regular.ttf?1523558283499");
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  margin: 0px auto 0px auto;
+}
+
+h2, h3 {
+  margin: 5px 0px 5px 0px; 
+}
+
+form {
+  margin: 0px auto 0px auto;
+  max-width: 480px;
+  text-align: center;
+}
+
+.main_title {
+  background: #8008d6;
+  border-radius: 30px 30px 0px 0px;
+  margin: 0px auto 0px auto;
+}
+
+.main_form {
+ background: linear-gradient(to bottom right, #00098e, #0B162A);
+ margin: 0px auto 0px auto;
+ padding: 1px 0px 10px 0px; 
+}
+
+.main_labels {
+ font-family: 'EraserDust', regular; 
+}
+
+#sob-name {
+ color: #ffaa00;
+}
+
+#dlo-name {
+ color: #FFB81C; 
+}
+
+#tom-name {
+ color: white; 
+}
+
+#clp-name {
+ color: #0C2340; 
+}
+
+#jofa-name {
+ color: #A5ACAF; 
+ text-decoration: underline;
+    text-decoration-color: #A71930; 
+}
+
+.thegrid {
+  display: grid;
+  max-width: 425px;
+  margin: auto;
+  grid-column-gap: 3px;
+  grid-row-gap: 1px;
+  grid-auto-rows: minmax(20px, auto);
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+
+input{
+ width: 60px; 
+}
+
+.titles {
+ font-weight: bold
+   
+}

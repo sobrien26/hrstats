@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HRB</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://findicons.com/files/icons/2083/go_green_web/64/money_bills.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <form class="main_title">
+      <h1>
+        Horse Racing Calculator</h1>
+    </form>
+    <form class="main_form">
+      <h2 class="main_labels" id="sob-name">
+        <u>Data Entry</u>
+      </h2>  
+      <div class = "thegrid">
+        <div>Distance</div>
+          <div><select id="distance" name="distance">
+          <option value="7f">7f</option>
+          <option value="8f">8f</option>
+          <option value="16f">M+1/16</option>
+          <option value="9f">M+1/8</option>
+          <option value="10f">M+1/4</option>  
+          </select></div>
+        <div>Half Mile Time</div>
+          <div><input type="number" id="half_time" name="half_time" step="0.01" min="0" max="60"></div>
+        <div>Half Mile Dist Ran</div>
+          <div><input type="number" id="h_dist" name="h_dist" min="0" max="2800"></div>
+        <div>Full Time</div>
+          <div><input type="number" id="full_time" name="full_time" step="0.01" min="0" max="140"></div>
+        <div>Full Dist Ran</div>
+          <div><input type="number" id="f_dist" name="f_dist"></div>
+      </div>  
+    </form>
+    
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+
+</html>
